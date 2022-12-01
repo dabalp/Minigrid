@@ -187,6 +187,15 @@ def register_minigrid_envs():
         kwargs={"size": 16},
     )
 
+    # TMaze
+    # ----------------------------------------
+
+    register(
+        id="MiniGrid-TMaze-5x5-v0",
+        entry_point="minigrid.envs:TMazeEnv",
+        kwargs={"size": 5},
+    )
+
     # Fetch
     # ----------------------------------------
 
